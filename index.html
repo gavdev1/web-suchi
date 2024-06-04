@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+  <!--=============== REMIXICONS ===============-->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>Sushi</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header">
+    <nav class="menu">
+      <a class="menu__logo" href="#">
+        <img class="menu__img" src="assets/img/logo.png" alt="logo" />
+        Suchi
+      </a>
+      <div class="menu__elements">
+        <a class="menu__item" href="#">Home</a>
+        <a class="menu__item" href="#">About Us</a>
+        <a class="menu__item" href="#">Popular</a>
+        <a class="menu__item" href="#">Recently</a>
+        <i class="ri-close-line menu__close"></i>
+        <i class="ri-moon-line" id="dark"></i>
+      </div>
+      <div class="menu__icons">
+        <i class="ri-sun-line"></i>
+        <i class="ri-gallery-view-2" id="bar"></i>
+      </div>
+    </nav>
+  </header>
+  <img src="assets/img/leaf-branch-2.png" alt="left-branch-2" class="branch-2">
+  <img src="assets/img/leaf-branch-1.png" alt="left-branch-1" class="branch-1">
+  
+  <section class="container grid">
+    <article class="hero__text">
+      <h1 class="title">Enjoy delicious <br> <span class="hero__suchi"><img class="hero__suchi--img" src="assets/img/home-sushi-title.png" alt="home-suchi"> suchi food</span></h1>
+      <p class="hero__write">Donec vitae odio dignissim, imperdiet libero eu, dictum orci. Nunc vehicula justo mauris, in cursus.</p>
+      <a class="btn" href="#">Order Now <i class="ri-arrow-right-line"></i></a>
+    </article>
+    <div class="hero__image">
+      <img src="assets/img/home-sushi-rolls.png" alt="home-sushi-rolls.png">
+    </div>
+  </section>
+
+  <!--==================== MAIN ====================-->
+  <main>
+    <section class="container grid">
+      <article class="hero__text">
+        <h3 class="subtitle">About Us</h3>
+        <h2 class="title"> <span class="hero__suchi">We provide <img class="hero__suchi--img" src="assets/img/about-sushi-title.png" alt="about-title"></span>Healthy Food</h2>
+        <p>Phasellus egestas sapien vitae augue mollis, posuere efficitur dui laoreet. Nam quis gravida risus, sed posuere eros. Aliquam id molestie nibh. Aliquam ut convallis orci, quis auctor ipsum. In rhoncus.</p>
+      </article>
+      <div class="hero__image">
+        <img src="assets/img/about-sushi.png" alt="about-sushi">
+      </div>
+    </section>
+
+    <section class="container">
+      <h2 class="subtitle subtitle--center">Popular</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="assets/img/popular-onigiri.png" alt="Ongiri" class="card__img">
+          <h3 class="card__title">Ongiri</h3>
+          <p class="card__text">Japonese Dish</p>
+          <p class="card__price">$10.99</p>
+          <div class="card__bag"><i class="ri-shopping-bag-4-line"></i></div>
+        </div>
+        <div class="card">
+          <img src="assets/img/popular-spring-rols.png" alt="Spring Rolls" class="card__img">
+          <h3 class="card__title">Spring Rolls</h3>
+          <p class="card__text">Japonese Dish</p>
+          <p class="card__price">$15.99</p>
+          <div class="card__bag"><i class="ri-shopping-bag-4-line"></i></div>
+        </div>
+        <div class="card">
+          <img src="assets/img/popular-sushi-rolls.png" alt="suchi rolls" class="card__img">
+          <h3 class="card__title">Suchi Rolls</h3>
+          <p class="card__text">Japonese Dish</p>
+          <p class="card__price">$19.99</p>
+          <div class="card__bag"><i class="ri-shopping-bag-4-line"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container grid">
+      <article class="hero__text">
+        <h3 class="subtitle">Recently</h3>
+        <h2 class="title">Suchi Samurai <br> Salmón Chesse</h2>
+        <p>Fusce enim tellus, accumsan ac neque pellentesque, tempor lacinia velit. Vivamus pellentesque molestie nulla, sed.</p>
+        <a class="btn" href="#">Order Now <i class="ri-arrow-right-line"></i></a>
+      </article>
+      <div class="hero__image hero__image--order">
+        <img src="assets/img/recently-salmon-sushi.png" alt="recently-sushi">
+      </div>
+    </section>
+
+    <section class="container newsletter-container">
+      <img src="assets/img/newsletter-sushi.png" alt="newsletter-image" class="newsletter__image">
+      <div class="newsletter">
+        <h3 class="subtitle">Newsletter</h3>
+        <h2 class="title title--white">Suscribe For <br> Offer Updates</h2>
+        <form action="/" class="newsletter__form">
+          <input type="email" name="email" placeholder="Enter email" class="newsletter__input">
+          <a class="btn btn--newsletter" href="#">Suscribe</a>
+        </form>
+      </div>
+    </section>
+  </main>
+
+    <footer class="footer">
+      <div class="footer__widget footer__widget--relative">
+        <a class="menu__logo" href="#">
+          <img class="menu__img" src="assets/img/logo.png" alt="logo" />
+          Suchi
+        </a>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora adipisci vel quos.
+        </p>
+        <img src="assets/img/spinach-leaf.png" alt="spinach" class="footer__image">
+      </div>
+      <div class="footer__widget footer__widget--flex">
+        <h4 class="footer__title">Main Menu</h4>
+        <a href="#">About</a>
+        <a href="#">Menus</a>
+        <a href="#">Offer</a>
+        <a href="#">Events</a>
+      </div>
+      <div class="footer__widget footer__widget--flex">
+        <h4 class="footer__title">Information</h4>
+        <a href="#">Contact</a>
+        <a href="#">Order & Returns</a>
+        <a href="#">Videos</a>
+        <a href="#">Order & Returns</a>
+      </div>
+      <div class="footer__widget footer__widget--flex">
+        <h4 class="footer__title">Adress</h4>
+        <a href="#">Av. Hacienda 1234 lima 4231 Perú</a>
+        <a href="#">9AM - 11PM</a>
+      </div>
+      <div class="footer__widget">
+        <h4 class="footer__title">Social Media</h4>
+        <div class="footer__social">
+          <i class="ri-facebook-fill"></i>
+          <i class="ri-twitter-fill"></i>
+          <i class="ri-instagram-line"></i>
+        </div>
+      </div>
+  </footer>
+  <!--==================== HOME ====================-->
+
+
+  <!--==================== ABOUT ====================-->
+
+  <!--==================== POPULAR ====================-->
+
+  <!--==================== RECENTLY ====================-->
+
+  <!--==================== NEWSLETTER ====================-->
+
+  <!--==================== FOOTER ====================-->
+
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
